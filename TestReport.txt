@@ -1,0 +1,665 @@
+Test Report for Assignment 3 : 
+Name : Sourav Pal 
+Roll No.: 14CS10062
+
+Testing The implementation of Date and DateFormat classes
+-----------------------------------------------------
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Testing performed with format : d-m-yyyy
+The first date created is : 11-4-2016
+The second date created is : 21-5-2010
+Today's date is : 5-3-2016
+
+Displaying the use of copy constructor : 
+The date created by copy constructing first date : 11-4-2016
+
+Displaying the use of copy assignment operator : 
+The date created by assigning the first date : 21-5-2010
+
+Displaying the use of Unary operators :
+The date after incrementing 11-4-2016 by one day (prefix) : 12-4-2016
+The date after incrementing 12-4-2016 by one week (postfix) (returns the same date): 12-4-2016
+The result of incrementing 12-4-2016 by one week 19-4-2016
+The date after decrementing 21-5-2010 by one day (prefix): 20-5-2010
+The date after decrementing 20-5-2010 by one week (postfix) (returns the same date): 20-5-2010
+The result of decrementing 20-5-2010 by one week 13-5-2010
+
+Now the first and second dates have changed : 
+The first date is : 19-4-2016
+The second date is : 13-5-2010
+The number of days between 19-4-2016 and 13-5-2010 is 2168
+
+Displaying the utility of the overloaded + operator : 
+The date formed by adding five days to 19-4-2016 is 24-4-2016
+The date formed by subtracting five days from 13-5-2010 is 8-5-2010
+
+Displaying the utility of the cast operators : 
+The atrributes displayed immediately below correspond to 19-4-2016
+Day : 19
+Month : 4
+Year : 2016
+WeekDay : Tuesday
+WeekNumber : 16
+
+Checking whether the Years in the Dates are Leap Years or not : 
+The year 2016 is a leapYear
+The year 2010 is not a leapYear
+
+Displaying the use of binary relational operators : 
+The dates 19-4-2016 != 13-5-2010
+The dates 19-4-2016 > 13-5-2010
+The dates 19-4-2016 >= 13-5-2010
+The dates 19-4-2016 = 19-4-2016
+
+
+Testing performed with format : d-mm-yy
+The first date created is : 1-03-16
+The second date created is : 21-11-12
+Today's date is : 5-03-16
+
+Displaying the use of copy constructor : 
+The date created by copy constructing first date : 1-03-16
+
+Displaying the use of copy assignment operator : 
+The date created by assigning the first date : 21-11-12
+
+Displaying the use of Unary operators :
+The date after incrementing 1-03-16 by one day (prefix) : 2-03-16
+The date after incrementing 2-03-16 by one week (postfix) (returns the same date): 2-03-16
+The result of incrementing 2-03-16 by one week 9-03-16
+The date after decrementing 21-11-12 by one day (prefix): 20-11-12
+The date after decrementing 20-11-12 by one week (postfix) (returns the same date): 20-11-12
+The result of decrementing 20-11-12 by one week 13-11-12
+
+Now the first and second dates have changed : 
+The first date is : 9-03-16
+The second date is : 13-11-12
+The number of days between 9-03-16 and 13-11-12 is 1212
+
+Displaying the utility of the overloaded + operator : 
+The date formed by adding five days to 9-03-16 is 14-03-16
+The date formed by subtracting five days from 13-11-12 is 8-11-12
+
+Displaying the utility of the cast operators : 
+The atrributes displayed immediately below correspond to 9-03-16
+Day : 9
+Month : 3
+Year : 2016
+WeekDay : Wednesday
+WeekNumber : 10
+
+Checking whether the Years in the Dates are Leap Years or not : 
+The year 2016 is a leapYear
+The year 2012 is a leapYear
+
+Displaying the use of binary relational operators : 
+The dates 9-03-16 != 13-11-12
+The dates 9-03-16 > 13-11-12
+The dates 9-03-16 >= 13-11-12
+The dates 9-03-16 = 9-03-16
+
+
+Testing performed with format : d-mm-yyyy
+The first date created is : 1-03-2014
+The second date created is : 21-01-2012
+Today's date is : 5-03-2016
+
+Displaying the use of copy constructor : 
+The date created by copy constructing first date : 1-03-2014
+
+Displaying the use of copy assignment operator : 
+The date created by assigning the first date : 21-01-2012
+
+Displaying the use of Unary operators :
+The date after incrementing 1-03-2014 by one day (prefix) : 2-03-2014
+The date after incrementing 2-03-2014 by one week (postfix) (returns the same date): 2-03-2014
+The result of incrementing 2-03-2014 by one week 9-03-2014
+The date after decrementing 21-01-2012 by one day (prefix): 20-01-2012
+The date after decrementing 20-01-2012 by one week (postfix) (returns the same date): 20-01-2012
+The result of decrementing 20-01-2012 by one week 13-01-2012
+
+Now the first and second dates have changed : 
+The first date is : 9-03-2014
+The second date is : 13-01-2012
+The number of days between 9-03-2014 and 13-01-2012 is 786
+
+Displaying the utility of the overloaded + operator : 
+The date formed by adding five days to 9-03-2014 is 14-03-2014
+The date formed by subtracting five days from 13-01-2012 is 8-01-2012
+
+Displaying the utility of the cast operators : 
+The atrributes displayed immediately below correspond to 9-03-2014
+Day : 9
+Month : 3
+Year : 2014
+WeekDay : Sunday
+WeekNumber : 10
+
+Checking whether the Years in the Dates are Leap Years or not : 
+The year 2014 is not a leapYear
+The year 2012 is a leapYear
+
+Displaying the use of binary relational operators : 
+The dates 9-03-2014 != 13-01-2012
+The dates 9-03-2014 > 13-01-2012
+The dates 9-03-2014 >= 13-01-2012
+The dates 9-03-2014 = 9-03-2014
+
+
+Testing performed with format : dd-m-yy
+The first date created is : 10-3-16
+The second date created is : 21-1-12
+Today's date is : 05-3-16
+
+Displaying the use of copy constructor : 
+The date created by copy constructing first date : 10-3-16
+
+Displaying the use of copy assignment operator : 
+The date created by assigning the first date : 21-1-12
+
+Displaying the use of Unary operators :
+The date after incrementing 10-3-16 by one day (prefix) : 11-3-16
+The date after incrementing 11-3-16 by one week (postfix) (returns the same date): 11-3-16
+The result of incrementing 11-3-16 by one week 18-3-16
+The date after decrementing 21-1-12 by one day (prefix): 20-1-12
+The date after decrementing 20-1-12 by one week (postfix) (returns the same date): 20-1-12
+The result of decrementing 20-1-12 by one week 13-1-12
+
+Now the first and second dates have changed : 
+The first date is : 18-3-16
+The second date is : 13-1-12
+The number of days between 18-3-16 and 13-1-12 is 1526
+
+Displaying the utility of the overloaded + operator : 
+The date formed by adding five days to 18-3-16 is 23-3-16
+The date formed by subtracting five days from 13-1-12 is 08-1-12
+
+Displaying the utility of the cast operators : 
+The atrributes displayed immediately below correspond to 18-3-16
+Day : 18
+Month : 3
+Year : 2016
+WeekDay : Friday
+WeekNumber : 11
+
+Checking whether the Years in the Dates are Leap Years or not : 
+The year 2016 is a leapYear
+The year 2012 is a leapYear
+
+Displaying the use of binary relational operators : 
+The dates 18-3-16 != 13-1-12
+The dates 18-3-16 > 13-1-12
+The dates 18-3-16 >= 13-1-12
+The dates 18-3-16 = 18-3-16
+
+
+Testing performed with format : dd-m-yyyy
+The first date created is : 30-3-2014
+The second date created is : 12-1-2012
+Today's date is : 05-3-2016
+
+Displaying the use of copy constructor : 
+The date created by copy constructing first date : 30-3-2014
+
+Displaying the use of copy assignment operator : 
+The date created by assigning the first date : 12-1-2012
+
+Displaying the use of Unary operators :
+The date after incrementing 30-3-2014 by one day (prefix) : 31-3-2014
+The date after incrementing 31-3-2014 by one week (postfix) (returns the same date): 31-3-2014
+The result of incrementing 31-3-2014 by one week 07-4-2014
+The date after decrementing 12-1-2012 by one day (prefix): 11-1-2012
+The date after decrementing 11-1-2012 by one week (postfix) (returns the same date): 11-1-2012
+The result of decrementing 11-1-2012 by one week 04-1-2012
+
+Now the first and second dates have changed : 
+The first date is : 07-4-2014
+The second date is : 04-1-2012
+The number of days between 07-4-2014 and 04-1-2012 is 824
+
+Displaying the utility of the overloaded + operator : 
+The date formed by adding five days to 07-4-2014 is 12-4-2014
+The date formed by subtracting five days from 04-1-2012 is 30-12-2011
+
+Displaying the utility of the cast operators : 
+The atrributes displayed immediately below correspond to 07-4-2014
+Day : 7
+Month : 4
+Year : 2014
+WeekDay : Monday
+WeekNumber : 15
+
+Checking whether the Years in the Dates are Leap Years or not : 
+The year 2014 is not a leapYear
+The year 2012 is a leapYear
+
+Displaying the use of binary relational operators : 
+The dates 07-4-2014 != 04-1-2012
+The dates 07-4-2014 > 04-1-2012
+The dates 07-4-2014 >= 04-1-2012
+The dates 07-4-2014 = 07-4-2014
+
+
+Testing performed with format : dd-mm-yy
+The first date created is : 11-03-10
+The second date created is : 12-02-12
+Today's date is : 05-03-16
+
+Displaying the use of copy constructor : 
+The date created by copy constructing first date : 11-03-10
+
+Displaying the use of copy assignment operator : 
+The date created by assigning the first date : 12-02-12
+
+Displaying the use of Unary operators :
+The date after incrementing 11-03-10 by one day (prefix) : 12-03-10
+The date after incrementing 12-03-10 by one week (postfix) (returns the same date): 12-03-10
+The result of incrementing 12-03-10 by one week 19-03-10
+The date after decrementing 12-02-12 by one day (prefix): 11-02-12
+The date after decrementing 11-02-12 by one week (postfix) (returns the same date): 11-02-12
+The result of decrementing 11-02-12 by one week 04-02-12
+
+Now the first and second dates have changed : 
+The first date is : 19-03-10
+The second date is : 04-02-12
+The number of days between 19-03-10 and 04-02-12 is 687
+
+Displaying the utility of the overloaded + operator : 
+The date formed by adding five days to 19-03-10 is 24-03-10
+The date formed by subtracting five days from 04-02-12 is 30-01-12
+
+Displaying the utility of the cast operators : 
+The atrributes displayed immediately below correspond to 19-03-10
+Day : 19
+Month : 3
+Year : 2010
+WeekDay : Friday
+WeekNumber : 11
+
+Checking whether the Years in the Dates are Leap Years or not : 
+The year 2010 is not a leapYear
+The year 2012 is a leapYear
+
+Displaying the use of binary relational operators : 
+The dates 19-03-10 != 04-02-12
+The dates 19-03-10 < 04-02-12
+The dates 19-03-10 <= 04-02-12
+The dates 19-03-10 = 19-03-10
+
+
+Testing performed with format : dd-mm-yyyy
+The first date created is : 11-11-2011
+The second date created is : 26-01-2010
+Today's date is : 05-03-2016
+
+Displaying the use of copy constructor : 
+The date created by copy constructing first date : 11-11-2011
+
+Displaying the use of copy assignment operator : 
+The date created by assigning the first date : 26-01-2010
+
+Displaying the use of Unary operators :
+The date after incrementing 11-11-2011 by one day (prefix) : 12-11-2011
+The date after incrementing 12-11-2011 by one week (postfix) (returns the same date): 12-11-2011
+The result of incrementing 12-11-2011 by one week 19-11-2011
+The date after decrementing 26-01-2010 by one day (prefix): 25-01-2010
+The date after decrementing 25-01-2010 by one week (postfix) (returns the same date): 25-01-2010
+The result of decrementing 25-01-2010 by one week 18-01-2010
+
+Now the first and second dates have changed : 
+The first date is : 19-11-2011
+The second date is : 18-01-2010
+The number of days between 19-11-2011 and 18-01-2010 is 670
+
+Displaying the utility of the overloaded + operator : 
+The date formed by adding five days to 19-11-2011 is 24-11-2011
+The date formed by subtracting five days from 18-01-2010 is 13-01-2010
+
+Displaying the utility of the cast operators : 
+The atrributes displayed immediately below correspond to 19-11-2011
+Day : 19
+Month : 11
+Year : 2011
+WeekDay : Saturday
+WeekNumber : 46
+
+Checking whether the Years in the Dates are Leap Years or not : 
+The year 2011 is not a leapYear
+The year 2010 is not a leapYear
+
+Displaying the use of binary relational operators : 
+The dates 19-11-2011 != 18-01-2010
+The dates 19-11-2011 > 18-01-2010
+The dates 19-11-2011 >= 18-01-2010
+The dates 19-11-2011 = 19-11-2011
+
+
+The date format is set to d-m-yy
+The first date created is : 1-3-16
+The second date created is : 21-5-12
+Today's date is : 5-3-16
+
+Displaying the use of copy constructor : 
+The date created by copy constructing 1-3-16 : 1-3-16
+
+Displaying the use of copy assignment operator : 
+The date created by assigning 21-5-12 : 21-5-12
+
+Displaying the use of Unary operators :
+The date after incrementing 1-3-16 by one day (prefix) : 2-3-16
+The date after incrementing 2-3-16 by one week (postfix) (returns the same date): 2-3-16
+The result of incrementing 2-3-16 by one week 9-3-16
+The date after decrementing 21-5-12 by one day (prefix): 20-5-12
+The date after decrementing 20-5-12 by one week (postfix) (returns the same date): 20-5-12
+The result of decrementing 20-5-12 by one week 13-5-12
+
+Now the first and second dates have changed : 
+The first date is : 9-3-16
+The second date is : 13-5-12
+The number of days between 9-3-16 and 13-5-12 is 1396
+
+Displaying the utility of the overloaded + operator : 
+The date formed by adding five days to 9-3-16 is 14-3-16
+The date formed by subtracting five days from 13-5-12 is 8-5-12
+
+Displaying the utility of the cast operators : 
+The atrributes displayed immediately below correspond to 9-3-16
+Day : 9
+Month : 3
+Year : 2016
+WeekDay : Wednesday
+WeekNumber : 10
+
+Checking whether the Years in the Dates are Leap Years or not : 
+The year 2016 is a leapYear
+The year 2012 is a leapYear
+
+Displaying the use of binary relational operators : 
+The dates 9-3-16 != 13-5-12
+The dates 9-3-16 > 13-5-12
+The dates 9-3-16 >= 13-5-12
+The dates 9-3-16 = 9-3-16
+
+Displaying the date 9-3-16 in different formats:
+Format: d-m-yy--Date : 9-3-16
+Format: d-m-yyyy--Date : 9-3-2016
+Format: d-mm-yy--Date : 9-03-16
+Format: d-mm-yyyy--Date : 9-03-2016
+Format: dd-m-yy--Date : 09-3-16
+Format: dd-m-yyyy--Date : 09-3-2016
+Format: dd-mm-yy--Date : 09-03-16
+Format: dd-mm-yyyy--Date : 09-03-2016
+Format: 0-m-yy--Date :  -3-16
+Format: 0-m-yyyy--Date :  -3-2016
+Format: 0-mm-yy--Date :  -03-16
+Format: 0-mm-yyyy--Date :  -03-2016
+Format: d-0-yy--Date : 9-March-16
+Format: d-0-yyyy--Date : 9-March-2016
+Format: dd-0-yy--Date : 09-March-16
+Format: dd-0-yyyy--Date : 09-March-2016
+Format: d-mmm-yy--Date : 9-Mar-16
+Format: d-mmm-yyyy--Date : 9-Mar-2016
+Format: dd-mmm-yy--Date : 09-Mar-16
+Format: dd-mmm-yyyy--Date : 09-Mar-2016
+Format: d-m-0--Date : 9-3- 
+Format: d-mm-0--Date : 9-03- 
+Format: dd-m-0--Date : 09-3- 
+Format: dd-mm-0--Date : 09-03- 
+Format: 0-0-yy--Date :  -March-16
+Format: 0-0-yyyy--Date :  -March-2016
+Format: 0-mmm-yy--Date :  -Mar-16
+Format: 0-mmm-yyyy--Date :  -Mar-2016
+Format: 0-m-0--Date :  -3- 
+Format: 0-mm-0--Date :  -03- 
+Format: d-0-0--Date : 9-March- 
+Format: dd-0-0--Date : 09-March- 
+Format: d-mmm-0--Date : 9-Mar- 
+Format: dd-mmm-0--Date : 09-Mar- 
+Format: 0-0-0--Date :  -March- 
+Format: 0-mmm-0--Date :  -Mar- 
+
+The results displayed below arise due to the exceptions handeled : 
+
+Current Date Format : d-m-yy
+Entered date 01-03-1995 cannot be parsed with current date format
+Error:Invalid Argument
+The Date Entered : 33-03-65 is Invalid
+Error:Invalid Argument
+The Date Entered : 29-02-95 is not in Domain
+Error:Domain Error
+
+Current Date Format : d-m-yyyy
+Entered date 01-03-99 cannot be parsed with current date format
+Error:Invalid Argument
+The Date Entered : 32-06-1956 is Invalid
+Error:Invalid Argument
+The Date Entered : 29-02-2015 is not in Domain
+Error:Domain Error
+The Date Entered : 29-04-2075 is Out_Of_Range
+Error: Out Of Range : Year 2075 is not valid
+
+Current Date Format : d-mm-yy
+Entered date 2-3-99 cannot be parsed with current date format
+Error:Invalid Argument
+Entered date 1-06-1956 cannot be parsed with current date format
+Error:Invalid Argument
+The Date Entered : 31-04-15 is not in Domain
+Error:Domain Error
+The Date Entered : 31-15-15 is Invalid
+Error:Invalid Argument
+
+Current Date Format : d-mm-yyyy
+Entered date 1-03-99 cannot be parsed with current date format
+Error:Invalid Argument
+Entered date 30-6-1956 cannot be parsed with current date format
+Error:Invalid Argument
+The Date Entered : 29-02-2015 is not in Domain
+Error:Domain Error
+The Date Entered : 50-04-2016 is Invalid
+Error:Invalid Argument
+The Date Entered : 31-04-2016 is not in Domain
+Error:Domain Error
+The Date Entered : 10-04-1905 is Out_Of_Range
+Error: Out Of Range : Year 1905 is not valid
+
+Current Date Format : dd-m-yy
+Entered date 2-3-99 cannot be parsed with current date format
+Error:Invalid Argument
+The Date Entered : 32-6-56 is Invalid
+Error:Invalid Argument
+The Date Entered : 31-2-15 is not in Domain
+Error:Domain Error
+
+Current Date Format : dd-m-yyyy
+Entered date 1-03-99 cannot be parsed with current date format
+Error:Invalid Argument
+Entered date 30-6-56 cannot be parsed with current date format
+Error:Invalid Argument
+The Date Entered : 35-02-2015 is Invalid
+Error:Invalid Argument
+The Date Entered : 31-4-2016 is not in Domain
+Error:Domain Error
+The Date Entered : 31-5-2072 is Out_Of_Range
+Error: Out Of Range : Year 2072 is not valid
+
+Current Date Format : dd-mm-yy
+Entered date 2-03-99 cannot be parsed with current date format
+Error:Invalid Argument
+Entered date 30-6-56 cannot be parsed with current date format
+Error:Invalid Argument
+Entered date 31-03-1995 cannot be parsed with current date format
+Error:Invalid Argument
+The Date Entered : 41-03-95 is Invalid
+Error:Invalid Argument
+The Date Entered : 31-02-95 is not in Domain
+Error:Domain Error
+
+Current Date Format : dd-mm-yyyy
+Entered date 1-03-1999 cannot be parsed with current date format
+Error:Invalid Argument
+Entered date 03-6-1956 cannot be parsed with current date format
+Error:Invalid Argument
+Entered date 30-04-15 cannot be parsed with current date format
+Error:Invalid Argument
+The Date Entered : 33-04-2016 is Invalid
+Error:Invalid Argument
+The Date Entered : 31-06-2002 is not in Domain
+Error:Domain Error
+The Date Entered : 31-05-1890 is Out_Of_Range
+Error: Out Of Range : Year 1890 is not valid
+
+The Exceptions shown below are due to Invalid Format of accpeting input :
+
+Current Date Format : 0-m-yy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-m-yyyy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-mm-yy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-mm-yyyy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : d-0-yy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : d-0-yyyy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : dd-0-yy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : dd-0-yyyy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : d-mmm-yy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : d-mmm-yyyy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : dd-mmm-yy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : dd-mmm-yyyy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : d-m-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : d-mm-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : dd-m-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : dd-mm-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-0-yy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-0-yyyy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-mmm-yy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-mmm-yyyy
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-m-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-mm-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : d-0-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : dd-0-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : d-mmm-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : dd-mmm-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-0-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+Current Date Format : 0-mmm-0
+Date format not suitable for input. Please change in order to enter new date
+Error:Invalid Argument
+
+The following exceptions are due to various operations on the already created dates: 
+
+Current Date Format : dd-mm-yyyy
+Date created : 31-12-2049
+Date created : 26-12-2049
+Date created : 01-01-1950
+Date created : 03-01-1950
+Date created : 22-12-2049
+
+Trying to increment 31-12-2049 by one day
+Error: Out Of Range : Year 2050 is not valid
+
+Trying to increment 26-12-2049 by seven days
+Error: Out Of Range : Year 2050 is not valid
+
+Trying to decrement 01-01-1950 by one day
+Error: Out Of Range : Year 1949 is not valid
+
+Trying to decrement 03-01-1950 by seven days
+Error: Out Of Range : Year 1949 is not valid
+
+Trying to add 10 days to 22-12-2049
+Error: Out Of Range : Year 2050 is not valid
+
+The following exceptions also arise :
+
+The Date Entered : sd-45-jhgj is Invalid
+Error:Invalid Argument
+The Date Entered : dhgajg is Invalid
+Error:Invalid Argument
+The Date Entered : 32-3-1997 is Invalid
+Error:Invalid Argument
+The Date Entered : 29-2-1997 is not in Domain
+Error:Domain Error
+The Date Entered : 31-3-1900 is Out_Of_Range
+Error: Out Of Range : Year 1900 is not valid
+
+-------------------------------------------------------------------------------------
+
