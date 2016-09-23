@@ -1,0 +1,6 @@
+{
+  "name": "Date-class",
+  "tagline": "",
+  "body": "# date-class\r\nThis is a Date data type in C++ to deal with calendar dates ranging between 01/Jan/1950\r\nand 31/Dec/2049. The dates support the operations for a Date type as defined in the following class\r\ndefinition (in Date.h). Further dates are formatted for i/o using the DateFormat class.\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
